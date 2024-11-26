@@ -35,5 +35,25 @@ section {
 }
 
 .moldura_videos {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.video {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+.video iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
